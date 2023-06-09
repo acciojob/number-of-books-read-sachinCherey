@@ -18,6 +18,15 @@ const library = [
 
 const numberOfBooksRead = () => {
   // write your code here
+	let c=0;
+	let b=Object.keys(library);
+	b.forEach(x)=>{
+		if(library[x]==true){
+			c++;
+		}
+	}
+	return c;
+	
 };
 
 // Do not change the code below
